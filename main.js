@@ -29,8 +29,8 @@ reset.addEventListener('click', (e)=> {
     input.value = '';
 })
         clearPersons();
-    totalpp.innerText = '$0';
-    tppshow.innerText = '$0';
+    totalpp.innerText = '$0.00';
+    tppshow.innerText = '$0.00';
     personsCount = 0;
     persons = 0;
     percentage = 0;
